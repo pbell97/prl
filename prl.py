@@ -15,8 +15,6 @@ def rawPut(URL, DATA = None):
 #-------------Core requests-------------
 baseURL = "https://pbell97.pythonanywhere.com/"
 
-
-
 def get(endpoint):
     """Gets data from Patrick's REST serve with the provided enpoint
 
