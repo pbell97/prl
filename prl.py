@@ -16,13 +16,13 @@ def rawPut(URL, DATA = None):
 baseURL = "https://pbell97.pythonanywhere.com/"
 
 def get(endpoint):
-    """Gets data from Patrick's REST serve with the provided enpoint
+    """Gets data from Patrick's REST server with the provided endpoint
 
     Arguments:
         endpoint {string} -- The endpoint to be reached
 
     Raises:
-        Exception -- Throws exception if a successful get wan't accomplished (status code 200)
+        Exception -- Throws exception if a successful get wasn't accomplished (status code 200)
 
     Returns:
         string -- Returns a string of the received data
